@@ -34,8 +34,11 @@ public class ContestActivity extends AppCompatActivity {
         // TODO Auto-generated method stub
         super.onActivityResult(requestCode, resultCode, data);
 
-        Bitmap bp = (Bitmap) data.getExtras().get("data");
-        iv.setImageBitmap(bp);
+        Intent intent = new Intent(this, SubmissionsActivity.class);
+        startActivity(intent);
+
+//        Bitmap bp = (Bitmap) data.getExtras().get("data");
+//        iv.setImageBitmap(bp);
     }
 
     @Override
