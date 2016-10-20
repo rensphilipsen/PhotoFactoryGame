@@ -32,16 +32,16 @@
         android:textSize="28sp"
         android:fontFamily="sans-serif"
         android:padding="15dp"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
+        android:layout_alignBottom="@+id/btnLogin"
+        android:layout_alignLeft="@+id/btnLogin"
+        android:layout_alignStart="@+id/btnLogin"
         android:layout_marginBottom="78dp" />
 
     <Button
         android:text="Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/btnLogin"
         android:background="@drawable/button_primary"
         android:textColor="@color/colorPrimary"
         android:textSize="28sp"
@@ -50,4 +50,16 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="153dp" />
+
+    <TextView
+        android:text="Find. Snap. Win."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold|italic" />
 </RelativeLayout>

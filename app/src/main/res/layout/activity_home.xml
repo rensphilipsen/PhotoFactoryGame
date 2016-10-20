@@ -9,8 +9,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.photofactory.photofactorygame.HomeActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:onClick="rowClick"
+            android:id="@+id/tableRow">
+
+            <TextView
+                android:text="Tree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:text="69480 Entries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:paddingLeft="30dp" />
+        </TableRow>
+
+    </TableLayout>
 </RelativeLayout>
