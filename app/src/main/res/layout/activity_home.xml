@@ -58,8 +58,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:padding="15dp"
-            android:id="@+id/tableRow2"
-            android:divider="dividerHorizontal">
+            android:id="@+id/tableRow2">
 
             <TextView
                 android:text="Apple Iphone 7"
@@ -95,8 +94,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:padding="15dp"
-            android:id="@+id/tableRow3"
-            android:divider="dividerHorizontal">
+            android:id="@+id/tableRow3">
 
             <TextView
                 android:text="Mercedes AMG GTR"
