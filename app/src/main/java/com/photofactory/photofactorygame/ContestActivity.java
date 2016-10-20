@@ -10,8 +10,9 @@ import android.widget.ImageView;
 
 public class ContestActivity extends AppCompatActivity {
 
-    Button b1,b2;
-    ImageView iv;
+    Button b1;
+    Bitmap bitmap;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,6 @@ public class ContestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_contest);
 
         b1=(Button)findViewById(R.id.button);
-        iv=(ImageView)findViewById(R.id.imageView);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +28,13 @@ public class ContestActivity extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            imageView=(ImageView)findViewById(R.id.imageView3);
+            bitmap = getIntent().getParcelableExtra("image");
+            imageView.setImageBitmap(bitmap);
+        }
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
