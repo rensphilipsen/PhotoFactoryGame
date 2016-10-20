@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        TableRow tableRow = (TableRow) findViewById(R.id.tableRow);
+        TableRow tableRow = (TableRow) findViewById(R.id.tableRow1);
 
         tableRow.setClickable(true);
         tableRow.setOnClickListener(onClickListener);
