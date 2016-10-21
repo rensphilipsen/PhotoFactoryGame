@@ -31,7 +31,7 @@ public class ContestActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            imageView=(ImageView)findViewById(R.id.imageView3);
+            imageView=(ImageView)findViewById(R.id.imageView);
             bitmap = getIntent().getParcelableExtra("image");
             imageView.setImageBitmap(bitmap);
         }
