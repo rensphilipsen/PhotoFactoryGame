@@ -2,4 +2,7 @@
     <string name="app_name">PhotoFactory: The Game</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="signin_error">Something went wrong while logging in!</string>
+    <string name="signin_empty_fields">All fields are required!</string>
+    <string name="signin_dialog">Signing in…</string>
 </resources>
