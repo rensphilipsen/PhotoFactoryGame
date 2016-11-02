@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "153689711424",
+    "firebase_url": "https://photofactorygame.firebaseio.com",
+    "project_id": "photofactorygame",
+    "storage_bucket": "photofactorygame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153689711424:android:3d3028400984b5b3",
+        "android_client_info": {
+          "package_name": "com.photofactory.photofactorygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153689711424-ild8jsn02mrplg5qk5nv2heghca9eqe8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.photofactory.photofactorygame",
+            "certificate_hash": "4B254C4F63C2ED6BEF44DD566AB9355A5B3F403E"
+          }
+        },
+        {
+          "client_id": "153689711424-csuch1iv80fqi6nrdbtecp4ggq6kcvmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDGOEoWNpofdAqnTm1S6VwWbo9BlzptnQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153689711424-csuch1iv80fqi6nrdbtecp4ggq6kcvmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
