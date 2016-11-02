@@ -82,7 +82,7 @@ public class ContestActivity extends AppCompatActivity {
             textView.setBackgroundColor(Color.parseColor("#cccccc"));
             textView.setTextSize(17);
             textView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
-            textView.setPadding(30, 15, 0, 0);
+            textView.setPadding(80, 40, 0, 0);
 
             ImageView imageView = new ImageView(this);
             imageView.setImageBitmap(bitmap);
@@ -91,8 +91,8 @@ public class ContestActivity extends AppCompatActivity {
             row.addView(relativeLayout);
 
             LikeButton likeButton = new LikeButton(this);
-            likeButton.setIconSizePx(40);
-            likeButton.setPadding(800,120,0,0);
+            likeButton.setIconSizePx(45);
+            likeButton.setPadding(900,120,0,0);
             likeButton.setLiked(true);
 
             tableLayout.addView(row);
@@ -112,8 +112,8 @@ public class ContestActivity extends AppCompatActivity {
             RelativeLayout newRelativeLayout = (RelativeLayout) findViewById(R.id.newRelativeLayout);
 
             TextView newTextView = (TextView) findViewById(R.id.newTextView);
-            newTextView.getLayoutParams().width = (int) scWidth - 156;
-            newTextView.getLayoutParams().height = 100;
+            newTextView.getLayoutParams().width = (int) scWidth - 10;
+            newTextView.getLayoutParams().height = 150;
 
         }
     }
