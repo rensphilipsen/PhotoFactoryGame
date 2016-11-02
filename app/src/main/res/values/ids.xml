@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="newRelativeLayout" type="id"/>
     <item name="newImageView" type="id"/>
+    <item name="newTextView" type="id"/>
 </resources>
